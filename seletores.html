@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <script src="exercicio2.js"></script>
+    <style>
+        #box1 {
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+            padding: 20px;     
+        }
+
+        .paragrafo {
+            background-color: greenyellow;
+            font-size: 18px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seletores</h1>
+
+    <div onmouseover="javascript: carregandoPagina()" id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta dicta, dolore facere eveniet reprehenderit nemo accusamus cupiditate quo nam quas quidem ratione earum sunt modi. Quo reprehenderit quae reiciendis.
+    </div>
+
+    <input type="button" value="ACEITA" onclick="javascript:funcaoTeste()">
+    
+    <p class="paragrafo">Paragrafo 1</p>
+    <p class="paragrafo">Paragrafo 2</p>
+    <p class="paragrafo">Paragrafo 3</p>
+
+    <h2>CPF: </h2>
+    <input type="text" name="cpf" onchange="javascript: campoObrigatorio()">
+
+</body>
+</html>

@@ -8,7 +8,7 @@ function funcaoTeste() {
 }
 
 function carregandoPagina() {
-    alert('CUIDADO !!!!')
+    alert('CUIDADO !!!')
 } 
 
 function campoObrigatorio() {
